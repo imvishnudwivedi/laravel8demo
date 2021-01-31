@@ -1,0 +1,979 @@
+/*=======================================================================================
+                                :-Start Responsive Css-:-
+*=============================================================================================*/
+
+/*=======================================================================================
+                                :-large/dasktop Layout-:-
+*=============================================================================================*/
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    h3,.product-bran-bg .section-title h2{
+        font-size: 40px !important;
+    }
+    /*home slider*/
+    .slide-item-tablecell h2{
+        font-size: 64px !important;
+    }
+    /*language*/
+    .lang-drop-item {
+        width: 133px;
+    }
+
+    /*Branding page*/
+    .ux-research .research-inner-contant,
+    .chalange .research-inner-contant,
+    .visual .research-inner-contant {
+        padding-left: 37px;
+    }
+
+    /*music track page*/
+    .share-on .share-text {
+        height: 50px;
+    }
+
+    .share-on .social-media li a {
+        margin-bottom: 7px;
+    }
+
+    /*explor us*/
+    .contant-overly {
+        left: 23%;
+        top: 29%;
+    }
+}
+
+/*=======================================================================================
+                                :-Tab Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 991.98px) {
+
+    .about-area-right .section-title h3,
+    .testimonial .section-title h3,
+    .our-servies .section-title h3,
+    .blog-title h3{
+        font-size: 35px;
+        line-height: 50px ;
+    }
+
+     /*mobile menu new*/
+     #menu1 {
+        display: block !important;
+    }
+
+     .mega-menu {
+        position: static;
+        transform: scale(1) !important;
+        overflow: hidden;
+        transition: all linear 0.5s !important;
+        width: 100%;
+        border-radius: 0;
+    }
+    .mega-menu li a:hover {
+        background: #f5f9ff !important;
+    }
+
+    .mega-menu li a {
+        width: 100% !important;
+        padding-left: 9% !important;
+    }
+
+    .mobile-manu-container {
+        background: #064b78;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        right: -100%;
+        transition: 0.5s ease;
+        overflow-y: scroll;
+       z-index: 9;
+        
+    }
+    .mobile-munu-cross {
+        right: 0%;
+        position: absolute;
+        top: 0;
+        background: #fff;
+        z-index: 9999;
+        display: block;
+        z-index: 99999999;
+        width: 51px;
+        height: 48px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+    
+    .page-hover i{
+        display: none;
+    }
+
+    .mobile-munu-cross img{
+        display: inline-block;
+    }
+
+    /*side bar*/
+
+    .sidebar {
+        display: none !important;
+    }
+
+    /*slider*/
+    .single-bg-1 {
+        height: 720px;
+    }
+
+    .single-bg-2,
+    .single-bg-3,
+    .single-bg-4,
+    .single-bg-5,.single-bg-6 {
+        height:523.69px;
+    }
+    .slide-item-tablecell p{
+        padding: 5px 0 4px 0px;
+    }
+    
+    .slide-item-tablecell {
+        text-align: center;
+    }
+
+    .slide-item-tablecell h2 {
+        font-size: 42px;
+    }
+
+    /*about area*/
+    .about-area {
+        display: inline;
+    }
+
+    .about-area-left {
+        margin-top: 0;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .about-area-right {
+        width: 100%;
+    }
+
+    .about-area-left img {
+        width: 100%;
+    }
+
+    .about-area-right .section-title {
+        max-width: 696px;
+        padding: 69px 0 5px 0;
+        margin: 0 auto;
+    }
+
+    /*work area*/
+    .work-heading {
+        padding-bottom: 83px;
+    }
+    .port-contant {
+        padding: 35px 0px 50px 24px;
+    }
+
+    /*what do area*/
+    .what-we-do{
+        padding: 100px 0;
+    }
+    .work-heading h3,
+    .what-we-do h3 {
+        font-size: 35px;
+        width: 100% !important;
+        line-height: 45px;
+    }
+
+    .what-we-do .section-title {
+        padding: 0px 0 10px 0;
+    }
+
+    .what-right {
+        height: 100% !important;
+    }
+
+    /*video*/
+    .video-bg {
+        height: 490px;
+    }
+
+    .videopopupjs__content {
+        height: 400px !important;
+        margin-top: 5% !important;
+    }
+    /*service*/
+    .our-servies .single-1{
+        display: block;
+    }
+    .our-servies .single-1 .servics-content {
+        padding: 20px 0 0 0px;
+    }
+    /*product branding*/
+    .product-bran-bg {
+        padding: 100px 0 100px 0;
+    }
+
+    .product-bran-bg .section-title h2 {
+        font-size: 35px;
+        padding: 24px 9px 29px 0px;
+    }
+
+    .product-bran-bg .section-title p {
+        padding-bottom: 10px;
+    }
+
+    /* blog part */
+    .blog-title {
+        padding-bottom: 50px;
+    }
+
+    .single-blog {
+        overflow: hidden;
+    }
+
+    .single-blog h3 {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    /*footer*/
+    ul.page li a,
+    .footer .section-title span,
+    .section-title p {
+        font-size: 16px;
+    }
+
+    /*========================================
+                     :-Home1 css-:-
+    *=========================================*/
+    .feature {
+        background: #F5F7FA;
+        padding: 100px 0 76px 0;
+    }
+
+    .feature .col-lg-4 {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .single-feature-wprapper {
+        margin-bottom: 30px;
+    }
+
+    /*========================================
+                     :-Other Page-:-
+    *=========================================*/
+    /*common background*/
+    .comn-page-wrapper {
+        padding: 200px 0;
+    }
+
+    .comn-page-wrapper h2 {
+        font-size: 46px;
+    }
+    /*project page*/
+    .protfoli-right-filter {
+        margin-top: -127px;
+    }
+
+    /*explor page*/
+    .meet-row .single-expet {
+        margin-top: 30px;
+    }
+
+    .contant-overly {
+        left: 29%;
+        top: 36%;
+    }
+
+    /*service page*/
+    .expert-single {
+        margin-bottom: 35px;
+    }
+
+    /*branding page*/
+    .page-topper,
+    .img-area {
+        padding-bottom: 70px;
+    }
+
+    .share-project,
+    .group-pertnar-contant {
+        padding: 70px 0;
+    }
+
+    .chalange .research-inner-contant {
+        padding-left: 0px;
+    }
+
+    .ux-research .research-inner-contant,
+    .chalange .research-inner-contant,
+    .visual .research-inner-contant {
+        max-width: 696px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .chalan-div-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /*blog page*/
+    .blog-top-area, .filter-contant-area {
+        padding: 60px 0 30px 0;
+    }
+    /*music track*/
+    .bg {
+        padding: 31px 20px 0px 20px;
+        text-align: left;
+    }
+
+    /*get in touch*/
+    .google-map {
+        height: 400px;
+    }
+
+
+
+}
+
+/*=======================================================================================
+                                :-Mobile Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 767.98px) {
+
+    /*language*/
+    .language-dropdown {
+        width: 68%;
+        float: left;
+        margin-left: 7px;
+    }
+
+    .work-area,
+    .our-servies {
+        padding: 60px 0 23px 0;
+    }
+
+    .product-bran-bg {
+        padding: 62px 0;
+
+    }
+
+    .testimonial {
+       padding: 56px 0px 50px 0;
+
+    }
+
+    .port-contant h5,
+    h3 {
+        font-size: 24px !important;
+        line-height: 35px !important;
+    }
+
+    /*slider*/
+    .single-bg-1 {
+        height: 500px;
+    }
+    .single-bg-2 .slide-item-tablecell,
+    .single-bg-3 .slide-item-tablecell {
+        padding-top: 163px;
+    }
+
+    .single-bg-2,
+    .single-bg-3,
+    .single-bg-4,
+    .single-bg-5,.single-bg-6 {
+        height:250px;
+    }
+
+    .logo{
+        margin-left: 0px;zoom:70%;
+    }
+
+    .slide-item-tablecell {
+        padding-top: 144px;
+    }
+
+    .slide-item-tablecell h2 {
+        font-size: 32px;
+    }
+
+    .homepage-slide .owl-prev,
+    .homepage-slide .owl-next {
+        top: 60%;
+    }
+
+    .homepage-slider-wrapper .overly-img {
+        display: none;
+    }
+    
+    /*about area*/
+    .about-area-left{
+        padding-bottom: 0;
+    }
+    .about-area-right .section-title {
+        max-width: 502px;
+        padding: 56px 0 5px 0;
+    }
+    /*service title*/
+    .our-servies .section-title {
+        padding-bottom: 14px;
+    }
+    .our-servies .single-1 .servics-content {
+        padding: 12px 0 0 0px;
+        margin-left:8px;
+    }
+
+    /*work area*/
+    .work-heading {
+        padding-bottom: 17px;
+    }
+
+    .work-heading h3,
+    .what-we-do h3 {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    /*what do*/
+    .what-we-do h3{
+        padding-bottom: 25px;
+    }
+    .what-we-do {
+        padding: 58px 0 63px 0;
+    }
+
+    .over-pic {
+        display: none;
+    }
+
+    .what-right .what-we-picture {
+        position: initial !important;
+    }
+
+    .what-we-do .section-title {
+        padding: 0 !important;
+    }
+
+    .what-do .owl-nav {
+        padding-top: 7px;
+        padding-bottom: 40px;
+    }
+
+    /*video*/
+    .video-bg {
+        height: 350px;
+    }
+
+    .videopopupjs__content {
+        height: 320px !important;
+    }
+
+    /*procuct branding*/
+    .product-bran-bg .picture1 {
+        display: none;
+    }
+
+    .product-bran-bg .section-title h2 {
+        font-size: 35px;
+        padding: 40px 9px 29px 0px;
+        line-height: 45px;
+    }
+
+    .product-bran-bg .picture2 {
+        position: initial;
+        text-align: center;
+    }
+
+    .product-bran-bg .picture2,
+     .product-bran-bg .picture2 img{
+        width: 100%
+    }
+
+    /*testmonial part*/
+    .testmonial-slide .owl-stage-outer {
+        padding-bottom: 25px;
+
+    }
+
+    .testmonial-slide .slide1 p{
+        padding: 20px 0 15px 0;
+    }
+    .testimonial .section-title {
+        margin: 0 30px;
+    }
+
+    .testimonial .section-title {
+        padding-bottom: 30px;
+    }
+
+    /*blog*/
+    .blog {
+        padding: 56px 0px 10px 0;
+    }
+
+    .blog-title {
+        padding-bottom: 40px;
+    }
+
+    .more-contant {
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .more-contant {
+        text-align: left;
+    }
+
+    .single-blog {
+        padding-bottom: 50px;
+    }
+
+    .blog-image img {
+        width: 100%;
+    }
+
+    /*footer part*/
+    .footer {
+        background: #064b78;
+        padding: 48px 0 40px 0;
+    }
+    .contact-right {
+        text-align: left;
+        padding-top: 22px;
+    }
+
+    .row.footer-top {
+        padding-bottom: 68px;
+    }
+
+    .row.footer-top h3 {
+        line-height: 45px !important;
+    }
+
+    .footer-botom-area {
+        display: inline-block;
+        padding-top: 36px;
+    }
+
+    .list li {
+        margin-left: 0px;
+        margin-right: 17px;
+    }
+
+    .footer .section-title h4 {
+        padding: 38px 0 14px 0;
+    }
+    
+    .page li:last-child {
+        margin-bottom: 0;
+    }
+    .page {
+        margin-bottom: 0 !important;
+    }
+    /*========================================
+                     :-Home1 css-:-
+    *=========================================*/
+    /*feature*/
+    .feature{
+        padding: 60px 0 35px 0;
+    }
+    /*home1 slider */
+    .gallery-area{
+        padding: 58px 0px 33px 0;
+    }
+    .homepage-slide-2 .owl-prev,
+    .homepage-slide-2 .owl-next {
+        top: 71%;
+    }
+
+    .single-testimonial {
+        padding-top: 78px;
+    }
+
+    .testimonial-1 {
+        height: 400px;
+    }
+
+    .testmonial-one p {
+        font-size: 20px;
+    }
+
+    .testmonial-one p {
+        padding: 19px 0px 1px 0px;
+    }
+
+    .testmonial-one span.icon {
+        font-size: 40px;
+    }
+
+    /*gallery part*/
+    .single-item .overly-contant {
+        padding: 170px 0;
+    }
+
+    /*=========Other page res-css start*/
+    /*explor page*/
+    .explor-header-bottom {
+        padding: 55px 0;
+    }
+
+    .explor-heading {
+        text-align: left;
+        padding-bottom: 23px;
+    }
+
+    .ex-row .ex-row-p {
+        padding-bottom: 20px;
+    }
+
+    .contant-overly {
+        left: 38%;
+        top: 38%;
+    }
+
+    .single-counter {
+        margin: 15px 0;
+    }
+
+    /*casestudy page*/
+    .gallery-area .simplefilter {
+        padding: 10px 0 10px 0;
+    }
+
+    .protfoli-right-filter {
+        margin-top: 0px;
+    }
+
+    .casestudy-folter-work .work-heading {
+        padding-bottom: 0px;
+    }
+
+    .simplefilter li{
+        margin: 6px 12px !important;
+    }
+
+    /*branding page*/
+    .page-topper, .img-area {
+        padding-bottom: 40px;
+    }
+
+    .ux-research .research-inner-contant,
+    .chalange .research-inner-contant,
+    .visual .research-inner-contant {
+        max-width: 502px;
+    }
+    .ux-research,
+    .chalange, .visual,
+    .share-project, 
+    .group-pertnar-contant{
+        padding: 56px 0 62px 0;
+    }
+
+    .chalange .research-inner-contant p,
+    .visual .research-inner-contant p, 
+    .ux-research .research-inner-contant p {
+        padding: 18px 0px 8px 0;
+    }
+
+    .comn-page-wrapper h2 {
+        padding-bottom: 12px;
+    }
+
+    .comn-page-wrapper .breadcrumb {
+        float: left;
+    }
+
+    /*music track page*/
+    .music-contant-area {
+        padding: 55px 0;
+    }
+    
+    .music-inner-contant h3 {
+        padding: 4px 0 25px 0;
+
+    }
+    .how-can h4 {
+        padding-top: 30px;
+
+    }
+    .row.latest-blog {
+        padding: 37px 15px 29px 15px;
+    }
+
+    .comment-section .replay {
+        padding-bottom: 10px;
+    }
+    
+    .controller-prev{
+        padding-top: 2px;
+    }
+
+    .share-on .share-text {
+        height: 50px;
+    }
+
+    .share-on .social-media li a {
+        margin-bottom: 7px;
+    }
+
+    .comment-h {
+        padding-bottom: 50px;
+    }
+
+    .comment-p {
+        padding-bottom: 25px;
+    }
+    
+    .row.latest-blog p{
+        font-size: 18px;
+    }
+    /*blog page*/
+    .blog-top-area, .filter-contant-area{
+        padding: 60px 0 3px 0;
+    }
+    .work-area .filtering{
+        padding: 24px 0 32px 0;
+        display: inline-block;
+    }
+
+    .filtering {
+        padding:0 0 32px 0;
+        display: inline-block;
+    }
+
+    .filter-contante-area {
+        padding: 50px 0;
+    }
+
+    .blog-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .blog-row .comn-submit-search {
+        padding-bottom: 25px;
+    }
+
+    .single-blog-page h3 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /*pagination*/
+    .pagination.pagi-contant {
+        padding-top: 25px;
+    }
+
+    .pagi-contant .page-link1 {
+        height: 36px;
+        width: 36px;
+        padding: 4px 12px;
+    }
+
+    .page-item0 {
+        margin: 3px 6px;
+    }
+
+    .page-item0 .next,
+    .prev {
+        display: none;
+    }
+
+    /*get in touch*/
+    .get-comment {
+        padding-bottom: 65px;
+    }
+    .row.leave-comment h4{
+        padding-bottom: 20px;
+    }
+
+    .google-map {
+        height: 310px;
+    }
+
+}
+
+
+/*=======================================================================================
+                                :-Small Mobile Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 575.98px) {
+
+    /*about home area*/
+    .about-area-right .section-title {
+        max-width: 100%;
+        padding: 56px 16px 16px 16px;
+    }
+
+    /*homepage1 start*/
+    .testmonial-one .owl-nav {
+        display: none;
+    }
+
+    .homepage-slide-2 .owl-prev,
+    .homepage-slide-2 .owl-next {
+        top: 77%;
+    }
+
+    .single-testimonial {
+        padding-top: 12px;
+    }
+
+    /*homepage1 end*/
+    /*common background*/
+    .comn-page-wrapper {
+        padding: 145px 0;
+    }
+
+    .comn-page-wrapper h2 {
+        font-size: 36px;
+    }
+
+    /*explor page*/
+    .counter-area-bg {
+        padding: 80px 0;
+    }
+
+    .single-counter {
+        padding: 24px 0;
+    }
+
+    /*branding page*/
+    .ux-research .research-inner-contant,
+    .chalange .research-inner-contant,
+    .visual .research-inner-contant {
+        max-width: 100%;
+        padding: 16px 16px 27px 16px;
+    }
+
+    .visual .research-inner-contant p,
+    .ux-research .research-inner-contant p {
+        padding: 23px 0px 8px 0;
+    }
+     .ux-research,
+    .chalange, .visual, 
+    .group-pertnar-contant{
+        padding: 44px 0 62px 0;
+    }
+
+    .ux-research .p-0 {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    /*lagnuage*/
+    .lang-drop-item {
+        width: 128px;
+    }
+
+    /*button*/
+    a.btn-explor,
+    a.contact-us,
+    a.contact-us {
+        padding: 18px 16px;
+        width: 192px;
+    }
+
+    a.btn-explor span,
+    a.contact-us span,
+    a.contact-us span {
+        padding-left: 36px;
+    }
+
+    .btn-explor:hover span,
+    .contact-us:hover span {
+        padding-left: 17px !important;
+    }
+
+    /*musictrack page*/
+    .comment-section{
+        padding-left: 0;
+    }
+
+    .row.leave-comment h4{
+        padding-bottom: 32px;
+    }
+
+    .comment-h {
+        padding-bottom: 5px;
+    }
+
+    .latest-blog-left p,
+    .latest-blog-right p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+/*=======================================================================================
+                                :- Small Mobile Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 480px) {
+    .homepage-slide .owl-nav {
+        display: none;
+    }
+
+    .language-dropdown {
+        display: none;
+    }
+
+    .toggle-menu {
+        margin-right: 5px;
+        margin-top:-34px;
+    }
+
+    /*gallery part*/
+    .single-item .overly-contant {
+        padding: 100px 0;
+    }
+}
+
+/* for home 1 page slider */
+@media only screen and (max-width: 442px) {
+    .single-bg-2 .video1,
+    .single-bg-3 .video1 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .single-bg-2 .slide-item-tablecell,
+    .single-bg-3 .slide-item-tablecell,.single-bg-4 .slide-item-tablecell,.single-bg-5 .slide-item-tablecell {
+        padding-top: 105px;
+    }
+}
+
+
+/*=======================================================================================
+                                :-Extra Small Mobile Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 375px) {
+
+    /*explor page*/
+    .contant-overly {
+        left: 32%;
+        top: 34%;
+    }
+
+    .single-1 {
+        display: block !important;
+        padding: 24px 0 0 36px !important;
+    }
+
+    .single-1 .service-icon {
+        float: none !important;
+    }
+
+    .single-1 .servics-content h3 {
+        padding-top: 8px;
+    }
+
+}
+
+/*============================================================================
+                        :-End Responsive Css-:-
+*==================================================================================*/
