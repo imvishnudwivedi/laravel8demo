@@ -55,7 +55,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-10 offset-md-1 col-lg-9 offset-lg-1 mx-auto">
-                                    <p>Redefining Vishnu</p>
+                                    <p>Redefining Vishnu Prakash Dwivedi</p>
                                     <a href="service" class="btn-explor">Our Services<span class="icon"><i class="fa fa-arrow-right"></i></span></a>
                                 </div>
                             </div>
